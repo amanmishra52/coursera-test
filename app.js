@@ -1,7 +1,7 @@
 (function () {
   'use strict';
   angular.module('myFirstApp',[])
-  controller('MyFirstController', function() {
-
+  controller('MyFirstController', function($scope) {
+$scope.name="aman";
   })
 })();
