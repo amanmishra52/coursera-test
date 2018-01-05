@@ -1,3 +1,7 @@
 (function () {
-  angular.module('myFirstApp',[]);
+  'use strict';
+  angular.module('myFirstApp',[])
+  controller('MyFirstController', function() {
+
+  })
 })();
